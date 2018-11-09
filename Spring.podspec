@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Spring/*.swift'
   s.ios.resources = ['Spring/*.xib', 'SpringApp/*.xcassets']
   s.tvos.resources = ['SpringApp/*.xcassets']
+  s.swift_version = "4.2"
 end
